@@ -1,0 +1,70 @@
+
+body{
+    background-color: teal;
+    
+
+}
+
+
+button{
+    background-color: orange;
+    border-radius: 20px;
+    border: white 1px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Monserat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: lightgrey;
+    border: solid orange 2px;
+}
+
+
+#dice-container {
+	display: flex;
+    position: relative;
+	flex-wrap: wrap;
+	justify-content: center;
+    border: 5px solid orange; 
+    width: 500px;
+    height: 200px;
+    left: 25%;
+    
+}
+
+#add-die{
+    position: relative;
+    display: flex;
+    left: 35%;
+    top: 40px;
+}
+
+#roll-dice{
+    position: relative;
+    display: flex;
+    left: 50%;
+}
+
+.die {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.die:hover {
+	background-color: lightgray;
+}
